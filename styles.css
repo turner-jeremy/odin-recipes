@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(175, 188, 254);
+}
+h1 {
+    background-color: rgb(0, 103, 206);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.disclaimer {
+    font-size: smaller;
+    font-style: italic;
+}
+
+.subheading {
+    font-size: larger;
+}
+intro {
+    /* background-color: rgb(12, 107, 175); */
+    color: rgb(2, 78, 154);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(0, 0, 124);
+}
+
+.image-link {
+    max-width: 30%;
+    height: auto;
+}
