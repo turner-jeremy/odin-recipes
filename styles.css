@@ -47,6 +47,8 @@ td img{
 }
 
 td a{
+    color: rgb(1, 63, 124);
+    font-weight:500;
     font-size: 18px;
     font-family: Montserrat, Tahoma, sans-serif;
     text-decoration: none;
