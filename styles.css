@@ -1,45 +1,58 @@
-html {
-    background-color: black;
-}
 body {
     background-color: rgb(242, 239, 249);
-    border-style: solid;
-    border-radius: 2%;
 }
+
 h1 {
     background-color: rgb(1, 81, 161);
     color: white;
     font-size: 50px;
-    border-style:solid;
-    border-color: black;
-    border-width: 3px;
     padding-block: 10px;
 }
 
 intro {
-    /* background-color: rgb(12, 107, 175); */
+    text-align: center;
     color: rgb(2, 78, 154);
     font-family:Montserrat, Tahoma, Geneva, Verdana, sans-serif;
 }
-intro p {
-    font-size: 18px;
-}
+
+hr {
+    border-style: solid;
+    border-width: 1px;
+    max-width: 96%;
+  }
 
 .disclaimer {
     font-size: smaller;
     font-style: italic;
 }
 
-.center {
-    display: block;
+.center h1 {
+    width: 100%;
+}
+
+#recipe {
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    
+}  
+
+tr.recipe {
     text-align: center;
 }
-
-.img-link {
+td img{
+    min-width:90px;
+    max-width: 100%;
     height: auto;
-    margin-bottom: 10px;
 }
 
+td a{
+    font-size: 18px;
+    font-family: Montserrat, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+
+/* .image {
+    max-width:30%;
+} */

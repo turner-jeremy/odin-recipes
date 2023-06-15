@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
+    <title>T.O.P Recipes</title>
 </head>
 <body>
+    <hr>
     <intro class="center">
-    <h1>ODIN RECIPES</h1>
-    <p class="subheading">Very basic recipes for any unfortunate person that happens to see this page.</p>
-    <p>Written for <em>The Odin Project</em> HTML/CSS Fundamentals Course.</p>
-    <p class="disclaimer">(Disclaimer: The author advises against actually following any recipes listed on this site.)</p>
+        <h1>T.O.P. RECIPES</h1>
+        <p class="subheading">Very basic recipes for any unfortunate person that happens to see this page.</p>
+        <p>Written for <em>The Odin Project</em> HTML/CSS Fundamentals Course.</p>
+        <p class="disclaimer">(Disclaimer: The author advises against actually following any recipes listed on this site.)</p>
+        <hr>    
     </intro>
 
-    <a href="./recipes/grilled-cheese.html"><img class="img-link center" src="./images/grilled-cheese-title.jpg" alt="Grilled Cheese Sandwich"></a>
-    <a href="./recipes/fried-rice.html"><img class="img-link center" src="./images/fried-rice-title.jpg" alt="Fried Rice"></a>
-    <a href="./recipes/mixed-salad.html"><img class="img-link center" src="./images/mixed-salad-title.jpg" alt="Mixed Salad"></a>
-</div>
+        <table id="recipe">
+            <tr class="recipe image">
+                <td><a href="./recipes/grilled-cheese.html"><img src="./images/grilled-cheese-vert.jpg" alt="Grilled Cheese Sandwich"></a></td>
+                <td><a href="./recipes/fried-rice.html"><img src="./images/fried-rice-vert.jpg" alt="Fried Rice"></a></td>
+                <td><a href="./recipes/mixed-salad.html"><img src="./images/mixed-salad-vert.jpg" alt="Mixed Salad"></a></td>
+            </tr>
+            <tr class="recipe names">
+                <td><a href="./recipes/grilled-cheese.html">Grilled Cheese Sandwich</a></td>
+                <td><a href="./recipes/fried-rice.html">Fried Rice</a></td>
+                <td><a href="./recipes/mixed-salad.html">Mixed Salad</a></td>
+            </tr>
+        </table>        
+        <hr>
 </body>
 </html>
